@@ -41,7 +41,7 @@ nnoremap <leader>cc :Gcommit<CR>
 " NeoTerm termianl keymaps
 nnoremap <leader>tn :Tnew<CR><C-w>jacd $OLDPWD<CR>source .venv/bin/activate<CR><C-l>
 " Start Django Development Server
-nnoremap <leader>td :Tnew<CR><C-w>jacd $OLDPWD<CR>source .venv/bin/activate<CR><C-l>./manage.py runserver<CR><C-l>
+nnoremap <leader>td :Tnew<CR><C-w>jacd $OLDPWD<CR>source .venv/bin/activate<CR>./manage.py runserver<CR>
 nnoremap <leader>tt :Ttoggle<CR><C-w>j
 
 " Vim-commentary
