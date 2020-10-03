@@ -26,6 +26,7 @@ Plug 'dense-analysis/ale'
 Plug 'neoclide/vim-jsx-improve'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'ryanoasis/vim-devicons'
+Plug 'liuchengxu/vim-which-key'
 
 call plug#end()
 
