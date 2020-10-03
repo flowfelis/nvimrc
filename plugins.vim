@@ -20,6 +20,12 @@ Plug 'junegunn/gv.vim'
 Plug '907th/vim-auto-save'
 Plug 'vim-python/python-syntax'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'alvan/vim-closetag'
+Plug 'tpope/vim-surround'
+Plug 'dense-analysis/ale'
+Plug 'neoclide/vim-jsx-improve'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 

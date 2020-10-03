@@ -1,4 +1,7 @@
 {
-    "python.jediEnabled": false,
-    "python.pythonPath": "${workspaceFolder}/.venv/bin/python3"
+  "python.jediEnabled": false,
+  "python.pythonPath": "${workspaceFolder}/.venv/bin/python3",
+  "prettier.semi": false,
+  "prettier.arrowParens": "always",
+  "prettier.singleQuote": true
 }

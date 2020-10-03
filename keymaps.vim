@@ -35,8 +35,7 @@ tnoremap <Esc> <C-\><C-n>
 nnoremap <leader>n :NERDTreeToggle<CR>
 
 " Git Fugitive
-nnoremap <leader>gs :G<CR>
-nnoremap <leader>cc :Gcommit<CR>
+nnoremap gs :G<CR>
 
 " NeoTerm termianl keymaps
 nnoremap <leader>tn :Tnew<CR><C-w>jacd $OLDPWD<CR>source .venv/bin/activate<CR><C-l>
