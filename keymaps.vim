@@ -38,10 +38,10 @@ nnoremap <leader>n :NERDTreeToggle<CR>
 nnoremap gs :G<CR>
 
 " NeoTerm termianl keymaps
-nnoremap <leader>tn :Tnew<CR><C-w>jacd $OLDPWD<CR>source .venv/bin/activate<CR><C-l>
+nnoremap tn :Tnew<CR><C-w>jacd $OLDPWD<CR>source .venv/bin/activate<CR><C-l>
 " Start Django Development Server
-nnoremap <leader>td :Tnew<CR><C-w>jacd $OLDPWD<CR>source .venv/bin/activate<CR>./manage.py runserver<CR>
-nnoremap <leader>tt :Ttoggle<CR><C-w>j
+nnoremap td :Tnew<CR><C-w>jacd $OLDPWD<CR>source .venv/bin/activate<CR>./manage.py runserver<CR>
+nnoremap tt :Ttoggle<CR><C-w>j
 
 " Vim-commentary
 nnoremap <space>/ :Commentary<CR>
