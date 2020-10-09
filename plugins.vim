@@ -27,11 +27,7 @@ Plug 'neoclide/vim-jsx-improve'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'ryanoasis/vim-devicons'
 Plug 'liuchengxu/vim-which-key'
-<<<<<<< Updated upstream
 Plug 'enricobacis/vim-airline-clock'
-=======
-" Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
->>>>>>> Stashed changes
 
 call plug#end()
 
