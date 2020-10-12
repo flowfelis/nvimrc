@@ -28,6 +28,7 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'ryanoasis/vim-devicons'
 Plug 'liuchengxu/vim-which-key'
 Plug 'enricobacis/vim-airline-clock'
+Plug 'vim-test/vim-test'
 
 call plug#end()
 

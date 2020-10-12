@@ -22,6 +22,7 @@ source ~/.config/nvim/plug-config/vim-airline.vim
 source ~/.config/nvim/plug-config/neoterm.vim
 source ~/.config/nvim/plug-config/vim-closetag.vim
 source ~/.config/nvim/plug-config/which-key.vim
+source ~/.config/nvim/plug-config/vim-test.vim
 
 
 " enable all Python syntax highlighting features
