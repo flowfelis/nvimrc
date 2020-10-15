@@ -1,6 +1,6 @@
 " Key Mapping Stuff
 inoremap kj <Esc>
-nnoremap vl _v$
+nnoremap vl _v$h
 let mapleader = ' '
 nnoremap <leader>e <C-^>
 nnoremap <leader>d iimport pdb; pdb.set_trace()<Esc>
