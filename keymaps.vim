@@ -4,6 +4,8 @@ nnoremap vl _v$h
 let mapleader = ' '
 nnoremap <leader>e <C-^>
 nnoremap <leader>d iimport pdb; pdb.set_trace()<Esc>
+vnoremap <C-c> :w !pbcopy<CR><CR>
+nnoremap <C-v> :r !pbpaste<CR><CR>
 
 " Switch panes
 nnoremap <leader>j <C-w>j
@@ -39,12 +41,15 @@ nnoremap <leader>n :NERDTreeToggle<CR>
 " Git Fugitive
 nnoremap gs :G<CR>
 " NeoTerm termianl keymaps
-nnoremap tn :Tnew<CR><C-w>jacd $OLDPWD<CR>source .venv/bin/activate<CR><C-l>
+nnoremap tn :Tnew<CR><C-w>j:file terminal<CR>acd $OLDPWD<CR>source .venv/bin/activate<CR><C-l>
 " Start Django Development Server
-nnoremap td :Tnew<CR><C-w>jacd $OLDPWD<CR>source .venv/bin/activate<CR>./manage.py runserver<CR>
+nnoremap td :Tnew<CR><C-w>j:file django-server<CR>acd $OLDPWD<CR>source .venv/bin/activate<CR>./manage.py runserver<CR>
+" Start Django Shell
+nnoremap ts :Tnew<CR><C-w>j:file django-shell<CR>acd $OLDPWD<CR>source .venv/bin/activate<CR>./manage.py shell -i ipython<CR>
 nnoremap tt :Ttoggle<CR><C-w>j
 " Start Python REPL
-nnoremap tp :Tnew<CR><C-w>jacd $OLDPWD<CR>source .venv/bin/activate<CR>python<CR><C-l>
+nnoremap tp :Tnew<CR><C-w>j:file python-repl<CR>acd $OLDPWD<CR>source .venv/bin/activate<CR>python<CR><C-l>
+nnoremap tl :Tls<CR>
 " nnoremap tp :CocCommand python.startREPL<CR>
 " Run .py file in terminal
 nnoremap tf :CocCommand python.execInTerminal<CR>
