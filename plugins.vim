@@ -31,5 +31,6 @@ Plug 'enricobacis/vim-airline-clock'
 Plug 'vim-test/vim-test'
 Plug 'overcache/NeoSolarized'
 Plug 'preservim/tagbar'
+Plug 'vimwiki/vimwiki'
 
 call plug#end()
