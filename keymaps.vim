@@ -56,3 +56,5 @@ nnoremap tf :CocCommand python.execInTerminal<CR>
 " Vim-commentary
 nnoremap <space>/ :Commentary<CR>
 vnoremap <space>/ :Commentary<CR>
+" Vim-Tagbar
+nnoremap <leader>i :TagbarToggle<CR>
