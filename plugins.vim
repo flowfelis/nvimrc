@@ -32,5 +32,6 @@ Plug 'vim-test/vim-test'
 Plug 'overcache/NeoSolarized'
 Plug 'preservim/tagbar'
 Plug 'vimwiki/vimwiki'
+Plug 'easymotion/vim-easymotion'
 
 call plug#end()
