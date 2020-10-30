@@ -18,8 +18,8 @@ nnoremap <leader>1 :bp<CR>
 nnoremap <leader>2 :bn<CR>
 nnoremap <leader>q :bd!<CR>
 
-" Save All
-nnoremap <leader>w :q<CR>
+" Quit window
+nnoremap <leader>§ :q<CR>
 
 " Open init.vim in a new vertical window
 nnoremap <leader>v :vsplit ~/.config/nvim<CR>
