@@ -1,9 +1,7 @@
-" Key Mapping Stuff
-inoremap kj <Esc>
 nnoremap vl _v$h
 let mapleader = ' '
 nnoremap <leader>e <C-^>
-nnoremap <leader>d iimport pdb; pdb.set_trace()<Esc>
+nnoremap <leader>b ibreakpoint()<Esc>
 vnoremap <C-c> :w !pbcopy<CR><CR>
 nnoremap <C-v> :r !pbpaste<CR><CR>
 
@@ -40,8 +38,8 @@ tnoremap <Esc> <C-\><C-n>
 nnoremap <leader>n :NERDTreeToggle<CR>
 " Git Fugitive
 nnoremap gs :G<CR>
-" NeoTerm termianl keymaps
-nnoremap tn :Tnew<CR><C-w>j:file terminal<CR>acd $OLDPWD<CR>source .venv/bin/activate<CR><C-l>
+" NeoTerm terminal keymaps
+nnoremap tn :Tnew<CR><C-w>j:file terminal<CR>acd $OLDPWD<CR>source .venv/bin/activate<CR>
 " Start Django Development Server
 nnoremap td :Tnew<CR><C-w>j:file django-server<CR>acd $OLDPWD<CR>source .venv/bin/activate<CR>./manage.py runserver<CR>
 " Start Django Shell
