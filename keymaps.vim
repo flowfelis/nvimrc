@@ -1,3 +1,4 @@
+inoremap kj <Esc>
 nnoremap vl _v$h
 let mapleader = ' '
 nnoremap <leader>e <C-^>
