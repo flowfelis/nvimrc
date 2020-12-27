@@ -29,7 +29,7 @@ source ~/.config/nvim/plug-config/vim-test.vim
 let python_highlight_all = 1
 
 colorscheme gruvbox
-set background=dark
+set background=light
 
 let g:airline_powerline_fonts = 1
 set gfn=LiberationMonoPowerline:h13
