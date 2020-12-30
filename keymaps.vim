@@ -43,6 +43,8 @@ nnoremap gs :G<CR>
 nnoremap tn :Tnew<CR><C-w>j:file terminal<CR>acd $OLDPWD<CR>source .venv/bin/activate<CR><C-l>
 " Start Django Development Server
 nnoremap td :Tnew<CR><C-w>j:file django-server<CR>acd $OLDPWD<CR>source .venv/bin/activate<CR><C-l>./manage.py runserver<CR>
+" Start Flask Development Server
+nnoremap trf :Tnew<CR><C-w>j:file flask-server<CR>acd $OLDPWD<CR>source .venv/bin/activate<CR><C-l>export FLASK_APP=app && export FLASK_ENV=development && flask run<CR>
 " Start Django Shell with ptpython
 nnoremap ts :Tnew<CR><C-w>j:file django-shell<CR>acd $OLDPWD<CR>source .venv/bin/activate<CR><C-l>./manage.py shell_plus --ptpython<CR>
 " Toggle terminal
@@ -59,3 +61,6 @@ nnoremap <space>/ :Commentary<CR>
 vnoremap <space>/ :Commentary<CR>
 " Vim-Tagbar
 nnoremap <leader>i :TagbarToggle<CR>
+
+" f-string
+inoremap f' f'''<Esc>Xi
