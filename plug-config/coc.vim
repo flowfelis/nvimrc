@@ -142,7 +142,7 @@ let g:coc_global_extensions = [
             \ 'coc-css',
             \ 'coc-prettier',
             \ 'coc-json',
-            \ 'coc-python',
+            \ 'coc-pyright',
             \ 'coc-actions',
             \ 'coc-cfn-lint'
             \ ]
